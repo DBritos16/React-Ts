@@ -1,5 +1,9 @@
 import Calculadora from "./components/Calculadora";
 import Contador from "./components/Contador";
+import ConversorTemperatura from "./components/ConversorTemperatura";
+import Fibonacci from "./components/Fibonacci";
+import TablaMultiplicar from "./components/TablaMultiplicar";
+import ContadorPalabras from './components/ContadorPalabras'
 
 
 function App() {
@@ -18,6 +22,21 @@ function App() {
 
         <Contador/>
 
+        <br />
+
+        <TablaMultiplicar/>
+
+        <br />
+
+        <Fibonacci/>
+
+        <br />
+
+        <ConversorTemperatura/>
+
+        <br />  <br />
+
+        <ContadorPalabras/>
       </div>
     </>
   )
